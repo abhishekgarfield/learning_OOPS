@@ -1,5 +1,4 @@
 body{
-    background-color: aquamarine;
     color: blueviolet;
 }
 
@@ -17,3 +16,38 @@ body{
     background-color: blanchedalmond;
 }
 
+
+.spinner{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation-name: spinner;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+input[type="text"]{
+    outline:  red;
+    border:2px solid  red;
+}
+input:focus{
+    outline: red;border: 2px solid red;
+}
+
+
+@keyframes spin{
+    0% {transform: rotate(0deg);}
+    25%{transform: rotate(180deg);
+        border-top: 0.2px solid green;}
+    100% {transform: rotate(360deg);
+        border-top: 0.2px solid yellow;
+    }
+}
+@keyframes spinner{
+    0%{background-color: blueviolet;
+    transform: rotateY(0deg);}
+    25%{background-color: beige;}
+    50%{background-color: green;}
+    100%{background-color: yellow;
+        transform: rotateY(360deg)}
+}
