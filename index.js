@@ -1,4 +1,4 @@
-const obj={
+/*const obj={
     0:"abhishek",
     1:"sharma"
 }
@@ -57,7 +57,39 @@ console.log([...arr90,...arr89]);
 console.log(arr89.concat(arr90))
 
 
-
+const car={
+    name:"mustang",
+    type:"muscle",
+    color:"red"
+}
+const car2={
+    name:"mustang",
+    type:"muscle",
+    color:"yellow"
+}
+console.log({...car,type:"me"});
 const [id,id2,,,[a,b,c]=id3]=arr90;
 const {name,type,parents: {profession}}=obje;
 console.log(name,type,id2,profession,a);
+*/
+var el=document.getElementById("name");
+el.addEventListener("input",(e)=>{
+    handleChange(e);
+})
+var el1=document.getElementById("age");
+el1.addEventListener("input",(e)=>{
+    handleChange(e);
+})
+const  obj={
+    "name":String,
+    "age":Number
+ };
+const handleChange=(e)=>{
+    
+ 
+ var ob={...obj,[e.target.name]:[e.target.value]};
+ obj={...ob};
+ e.target.value=obj[e.target.name];
+ console.log(obj);
+
+}
