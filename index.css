@@ -1,0 +1,19 @@
+body{
+    background-color: aquamarine;
+    color: blueviolet;
+}
+
+
+.gu{
+    font-weight: 100;
+}
+
+.hi{
+    font-weight: 900;
+}
+
+.gu.hi{
+
+    background-color: blanchedalmond;
+}
+
