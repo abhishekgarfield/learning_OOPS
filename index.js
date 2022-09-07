@@ -40,3 +40,24 @@ var ar=[{
 
 const ne=ar.map(({user_id})=>user_id)
 console.log(ne);
+
+
+const obje={
+    name:"abhishek",
+    type:"coder",
+    child:0,
+    parents:{
+        father:"sh. amin",
+        profession:"teacher"
+    }
+}
+const arr90=[1,2,3,4];
+const arr89=[4,5,6];
+console.log([...arr90,...arr89]);
+console.log(arr89.concat(arr90))
+
+
+
+const [id,id2,,,[a,b,c]=id3]=arr90;
+const {name,type,parents: {profession}}=obje;
+console.log(name,type,id2,profession,a);
