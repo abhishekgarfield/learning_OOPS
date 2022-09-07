@@ -93,3 +93,39 @@ const handleChange=(e)=>{
  console.log(obj);
 
 }
+
+
+const dish = [
+  {
+    id: 1,
+    name: "maggie",
+  },
+  {
+    id: 2,
+    name: "paneer",
+  },
+  {
+    id: 3,
+    name: "chicken",
+  },
+  {
+    id: 2,
+    name: "paneer",
+  },
+  {
+    id: 3,
+    name: "chicken",
+  },
+];
+
+const objec={};
+
+dish.map((item)=>{
+if(!objec[item.id])
+{
+    objec[item.id]=[];
+}
+objec[item.id].push(item);
+})
+console.log(objec);
+
