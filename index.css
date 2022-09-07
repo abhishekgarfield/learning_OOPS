@@ -22,7 +22,10 @@ body{
     height: 20px;
     border-radius: 50%;
     animation-name: spinner;
-    animation-duration: 5s;
+    border: 2px solid red;
+
+border-top:2px solid mediumspringgreen;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -36,7 +39,7 @@ input:focus{
 
 
 @keyframes spin{
-    0% {transform: rotate(0deg);}
+    0% {transform: rotateX(0deg);}
     25%{transform: rotate(180deg);
         border-top: 0.2px solid green;}
     100% {transform: rotate(360deg);
@@ -44,10 +47,19 @@ input:focus{
     }
 }
 @keyframes spinner{
-    0%{background-color: blueviolet;
-    transform: rotateY(0deg);}
-    25%{background-color: beige;}
-    50%{background-color: green;}
-    100%{background-color: yellow;
-        transform: rotateY(360deg)}
+    0%{
+    transform: rotate(0deg);}
+    100%{
+        transform: rotate(360deg)}
+}
+.triangle{
+    
+    border-top:10pxpx soild transparent ;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid red;
+    width: 0%;
+}
+.triangle:hover{
+    transform: scale(1.2);
 }
