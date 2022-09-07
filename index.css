@@ -1,5 +1,4 @@
 body{
-    color: blueviolet;
 }
 
 
@@ -62,4 +61,7 @@ input:focus{
 }
 .triangle:hover{
     transform: scale(1.2);
+}
+ul li:nth-child(n+2){
+    color:aqua;
 }
