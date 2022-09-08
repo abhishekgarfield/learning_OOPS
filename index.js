@@ -130,14 +130,20 @@ objec[item.id].push(item);
 })
 console.log(objec);
 */
+/*
 const say=()=>{
     console.log("first occurence");
 }
-const hello=()=>{
-    say;
+var el=document.querySelector(".but");
+el.addEventListener("click",()=>{hello(()=>{console.log("inside fxns")})})
+const hello=(dr)=>{
+    say();
+    dr();
     console.log("second occurence");
+    say();
     const hlo=()=>{
         console.log("third occurence");
     }
     console.log("fourth occurence");
 }
+*/
