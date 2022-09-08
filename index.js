@@ -72,6 +72,7 @@ const [id,id2,,,[a,b,c]=id3]=arr90;
 const {name,type,parents: {profession}}=obje;
 console.log(name,type,id2,profession,a);
 */
+/*
 var el=document.getElementById("name");
 el.addEventListener("input",(e)=>{
     handleChange(e);
@@ -128,4 +129,15 @@ if(!objec[item.id])
 objec[item.id].push(item);
 })
 console.log(objec);
-
+*/
+const say=()=>{
+    console.log("first occurence");
+}
+const hello=()=>{
+    say;
+    console.log("second occurence");
+    const hlo=()=>{
+        console.log("third occurence");
+    }
+    console.log("fourth occurence");
+}
