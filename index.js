@@ -1,4 +1,6 @@
-/*const obj={
+import play from "./var";
+
+    /*const obj={
     0:"abhishek",
     1:"sharma"
 }
@@ -147,3 +149,11 @@ const hello=(dr)=>{
     console.log("fourth occurence");
 }
 */
+<script src="var.js"></script>
+var el=document.querySelector(".but");
+$(".but").addEventListener("click",()=>{
+    hello();
+});
+
+const hello=()=>{
+    hi();}
