@@ -172,6 +172,64 @@ var arr=[1,2,3,4];arr.map((item)=>{item*2});
 var arr=[1,2,3,4];arr.map((item)=>{ return item*2});
 (4) [2, 4, 6, 8]
 */
+VM1885:1 Console was cleared
+undefined
+var a={name:"abhishek"};a["age"]=26;
+26
+a
+{name: 'abhishek', age: 26}
+const b={name:"abhishek"};a["age"]=26;
+26
+b
+{name: 'abhishek'}
+const b={name:"abhishek"};b["age"]=26;
+26
+b
+{name: 'abhishek', age: 26}
+const b=10;
+undefined
+const b=30;
+undefined
+b
+30
+const a=10;const a=30;
+VM2309:1 Uncaught SyntaxError: Identifier 'a' has already been declared
+var a=10;const a=30;
+VM2350:1 Uncaught SyntaxError: Identifier 'a' has already been declared
+var a=10;var a=30;
+undefined
+a
+30
+let a=3;let a;
+VM2423:1 Uncaught SyntaxError: Identifier 'a' has already been declared
+let a=30;function hello(){console.log(a)} hello();
+VM2592:1 Uncaught SyntaxError: Identifier 'a' has already been declared
+let aee=30;function hello(){console.log(a)} hello();
+VM2650:1 30
+undefined
+let aee=30;function hello(){console.log(aee)} hello();
+VM2688:1 30
+undefined
+var aer=[1234,234];for(item of aer){console.log(item)};
+VM2916:1 1234
+VM2916:1 234
+undefined
+const art={name:"abhishek",age:"27"};for(key in art){console.log(art[key])};
+VM3102:1 abhishek
+VM3102:1 27
+undefined
+const helloo=()=>{if([]){var a=10; console.log(`inside if ${a}`)}console.log(a);};helloo();
+VM3500:1 inside if 10
+VM3500:1 10
+undefined
+const helloo=()=>{if([]){let a=10; console.log(`inside if ${a}`)}console.log(a);};helloo();
+VM3528:1 inside if 10
+VM3528:1 30
+undefined
+const helloo=()=>{if([]){const a=10; console.log(`inside if ${a}`)}console.log(a);};helloo();
+VM3557:1 inside if 10
+VM3557:1 30
+undefined
 var el=document.querySelector(".but");
 $(".but").addEventListener("click",()=>{
     hello();
