@@ -9,4 +9,4 @@ const b=20;
 
 export {a,b};
 export {hi};
-export default play;
+module.exports =play;

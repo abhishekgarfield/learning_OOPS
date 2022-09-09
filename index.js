@@ -1,4 +1,5 @@
 import play from "./var";
+var play= require("play");
 
     /*const obj={
     0:"abhishek",
@@ -149,7 +150,6 @@ const hello=(dr)=>{
     console.log("fourth occurence");
 }
 */
-<script src="var.js"></script>
 var el=document.querySelector(".but");
 $(".but").addEventListener("click",()=>{
     hello();
