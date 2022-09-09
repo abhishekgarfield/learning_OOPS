@@ -172,6 +172,7 @@ var arr=[1,2,3,4];arr.map((item)=>{item*2});
 var arr=[1,2,3,4];arr.map((item)=>{ return item*2});
 (4) [2, 4, 6, 8]
 */
+/*
 VM1885:1 Console was cleared
 undefined
 var a={name:"abhishek"};a["age"]=26;
@@ -230,6 +231,7 @@ const helloo=()=>{if([]){const a=10; console.log(`inside if ${a}`)}console.log(a
 VM3557:1 inside if 10
 VM3557:1 30
 undefined
+*/
 var el=document.querySelector(".but");
 $(".but").addEventListener("click",()=>{
     hello();
