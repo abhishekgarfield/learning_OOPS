@@ -150,6 +150,26 @@ const hello=(dr)=>{
     console.log("fourth occurence");
 }
 */
+var a=[[1,2,4],[3,5,4],[4,5,8],[6,7,9]];for([num,...rest] of a){console.log(rest)};
+VM1587:1 (2) [2, 4]
+VM1587:1 (2) [5, 4]
+VM1587:1 (2) [5, 8]
+VM1587:1 (2) [7, 9]
+undefined
+var a=[[1,2,4],[3,5,4],[4,5,8],[6,7,9]];for([num,...rest] of a){console.log(rest)};
+VM1617:1 (2) [2, 4]
+VM1617:1 (2) [5, 4]
+VM1617:1 (2) [5, 8]
+VM1617:1 (2) [7, 9]
+undefined
+var arr=[1,2,3,4];arr.map(item=>item*2);
+(4) [2, 4, 6, 8]
+var arr=[1,2,3,4];arr.map(item=>{item*2});
+(4) [undefined, undefined, undefined, undefined]
+var arr=[1,2,3,4];arr.map((item)=>{item*2});
+(4) [undefined, undefined, undefined, undefined]
+var arr=[1,2,3,4];arr.map((item)=>{ return item*2});
+(4) [2, 4, 6, 8]
 var el=document.querySelector(".but");
 $(".but").addEventListener("click",()=>{
     hello();
