@@ -62,13 +62,18 @@ var sum = 0;
 Object.values(orderData).forEach((item) => {
   sum += item;
 });
+console.log(sum);
 
 /* ------------- Another way ------------ */
+
+/*
 
 for (keys in orderData) {
   sum += orderData[keys];
 }
 console.log(sum);
+
+*/
 
 // b) Calculate the number of order proportion options
 
@@ -89,3 +94,4 @@ for (i = 0; i < Object.keys(orderData).length; i++) {
   );
   arr.push(objec);
 }
+console.log(arr);
