@@ -308,6 +308,7 @@ MediaQueryList {media: '(user-color-scheme:dark)', matches: false, onchange: nu
 window.matchMedia("(user-color-scheme:dark)").matches;
 false
 */
+/*
 VM158:1 Console was cleared
 undefined
 class restaurantList {
@@ -353,6 +354,7 @@ dhaba
 restaurantList {name: 'dhaba', address: 'punjab', city: 'mohali'}
 dhaba.name
 'dhaba'
+*/
 var el=document.querySelector(".but");
 $(".but").addEventListener("click",()=>{
     hello();
