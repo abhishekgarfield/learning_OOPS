@@ -302,6 +302,10 @@ Math.floor(Math.random()*10);
 2
 Math.floor(Math.random()*10);
 8
+window.matchMedia("(user-color-scheme:dark)");
+MediaQueryList {media: '(user-color-scheme:dark)', matches: false, onchange: null}
+window.matchMedia("(user-color-scheme:dark)").matches;
+false
 var el=document.querySelector(".but");
 $(".but").addEventListener("click",()=>{
     hello();
