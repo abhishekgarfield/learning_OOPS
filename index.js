@@ -232,6 +232,76 @@ VM3557:1 inside if 10
 VM3557:1 30
 undefined
 */
+var a =78.34556;
+undefined
+var a =78.34556; a.toFixed(3)
+'78.346'
+var a =78.34556; a.toFixed(1)
+'78.3'
+var a =78.34556; a.toFixed(1)
+'78.3'
+var a =78.34556; parseFloat(a.toFixed(1))
+78.3
+var a =78.34556; Number(a.toFixed(1))
+78.3
+Math.PI
+3.141592653589793
+Math.PI.round(2);
+VM403:1 Uncaught TypeError: Math.PI.round is not a function
+    at <anonymous>:1:9
+(anonymous) @ VM403:1
+Math.PI.round();
+VM413:1 Uncaught TypeError: Math.PI.round is not a function
+    at <anonymous>:1:9
+(anonymous) @ VM413:1
+Math.round( Math.PI);
+3
+Math.round(11.6);
+12
+Math.round(11.5);
+12
+Math.round(11.4);
+11
+Math.ceil(11.2)
+12
+Math.floor(11.9)
+11
+Math.random()*1000;
+606.595614636349
+Math.random()*1000;
+290.8856154797053
+Math.random()*1000;
+875.8627404572615
+Math.(random()*1000);
+VM859:1 Uncaught SyntaxError: Unexpected token '('
+(Math.random()*1000);
+744.2933417726721
+(Math.random()*1000).floor;
+undefined
+(Math.random()*1000).ceil;
+undefined
+Math.floor(Math.random()*1000);
+382
+Math.floor(Math.random()*1000);
+84
+Math.floor(Math.random()*1000);
+226
+Math.floor(Math.random()*1000);
+562
+Math.floor(Math.random()*1000);
+252
+Math.floor(Math.random()*10);
+5
+Math.floor(Math.random()*10);\
+VM1042:1 Uncaught SyntaxError: Invalid or unexpected token
+Math.floor(Math.random()*10);\
+VM1046:1 Uncaught SyntaxError: Invalid or unexpected token
+Math.floor(Math.random()*10);
+3
+Math.floor(Math.random()*10);
+2
+Math.floor(Math.random()*10);
+8
 var el=document.querySelector(".but");
 $(".but").addEventListener("click",()=>{
     hello();
