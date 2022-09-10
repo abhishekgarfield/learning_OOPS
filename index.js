@@ -232,6 +232,7 @@ VM3557:1 inside if 10
 VM3557:1 30
 undefined
 */
+/*
 var a =78.34556;
 undefined
 var a =78.34556; a.toFixed(3)
@@ -306,6 +307,7 @@ window.matchMedia("(user-color-scheme:dark)");
 MediaQueryList {media: '(user-color-scheme:dark)', matches: false, onchange: null}
 window.matchMedia("(user-color-scheme:dark)").matches;
 false
+*/
 var el=document.querySelector(".but");
 $(".but").addEventListener("click",()=>{
     hello();
