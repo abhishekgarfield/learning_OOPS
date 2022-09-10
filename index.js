@@ -308,6 +308,51 @@ MediaQueryList {media: '(user-color-scheme:dark)', matches: false, onchange: nu
 window.matchMedia("(user-color-scheme:dark)").matches;
 false
 */
+VM158:1 Console was cleared
+undefined
+class restaurantList {
+    constructor(name,address,city)
+    {
+        this.name=name;
+        this.address=address;
+        this.city=city;
+    }
+    printAllRestaurantNames(){
+            console.log(this.name);
+   }
+};var dhaba=new restaurantList(dhaba,punjab,mohali);
+VM315:11 Uncaught ReferenceError: punjab is not defined
+    at <anonymous>:11:38
+(anonymous) @ VM315:11
+class restaurantList {
+    constructor(name,address,city)
+    {
+        this.name=name;
+        this.address=address;
+        this.city=city;
+    }
+    printAllRestaurantNames(){
+            console.log(this.name);
+   }
+};var dhaba=new restaurantList("dhaba","punjab","mohali");
+undefined
+console.log(dhaba);
+VM449:1 restaurantList {name: 'dhaba', address: 'punjab', city: 'mohali'}
+undefined
+dhaba.printAllRestaurantNames();
+VM380:9 dhaba
+undefined
+var obj={name:"abhishek",age:"23"};
+undefined
+console.log(obj);
+VM630:1 {name: 'abhishek', age: '23'}age: "23"name: "abhishek"[[Prototype]]: Object
+undefined
+obj
+{name: 'abhishek', age: '23'}
+dhaba
+restaurantList {name: 'dhaba', address: 'punjab', city: 'mohali'}
+dhaba.name
+'dhaba'
 var el=document.querySelector(".but");
 $(".but").addEventListener("click",()=>{
     hello();
