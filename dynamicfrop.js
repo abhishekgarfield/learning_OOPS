@@ -11,13 +11,24 @@ function loadCity() {
     .then((data) => {
         console.log(data);
      var  city = data;
-      printcity();
+      printcity(city);
     })
     .catch((err) => {
       console.log(err);
     });
 }
-const printcity=()=>{
+const printcity=(city)=>{
+    console.log("inside");
+    console.log(city);
     var parent= document.getElementById("city");
         var child=parent.lastChild;
-        city.map((item))}
+        city.map(({location_name})=>{
+            console.log(location_name);
+            textNode=document.createTextNode(`${location_name}`);
+            elementNode=document.createElement("option");
+            elementNode.appendChild(textNode);
+            parent.appendChild(elementNode);
+        }
+        )}
+
+        var el1=document.getElementById()
