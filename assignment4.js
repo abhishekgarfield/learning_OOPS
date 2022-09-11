@@ -1,5 +1,6 @@
 /* --------------- Assignment-4 -------------*/
 /* --------------- Question 1 --------------*/
+
 ratingData = [
   { restaurant: "KFC", rating: 5 },
   { restaurant: "Burger King", rating: 4 },
@@ -12,11 +13,11 @@ ratingData = [
 ];
 
 // a) Average rating for all the restaurants
+
 var averageRating = [];
 var check = true; // for checking if element already added in existing array
 var index = 0; // creating array only for new elements
 ratingData.forEach((element) => {
-
   //Create new array with incremented index
 
   if (!averageRating[index]) {
@@ -56,9 +57,12 @@ var averageRestaurantRating = averageRating.map((item) => {
 
 console.log(averageRestaurantRating); // Contains restaurant name with average rating
 
-/* ---------------- Question 2 -----------------*/
+// b) List of all restaurants with average rating greater than or equal to 4
 
-var filteredAverageRating=averageRestaurantRating.filter(({averageRating})=>{return averageRating>=4});
+var filteredAverageRating = averageRestaurantRating.filter(
+  ({ averageRating }) => {
+    return averageRating >= 4;
+  }
+);
 
 console.log(filteredAverageRating); // filtered restautrant names with rating filter
-

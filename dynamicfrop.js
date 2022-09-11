@@ -17,7 +17,6 @@ function loadCity() {
     });
 }
 const printcity = (city) => {
-  console.log("inside");
   console.log(city);
   var parent = document.getElementById("city");
   var child = parent.lastChild;
