@@ -54,4 +54,4 @@ averageRating = averageRating.map((item) => {
   });
 });
 
-
+/* ---------------- Question 2 -----------------*/
