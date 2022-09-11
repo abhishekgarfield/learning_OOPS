@@ -540,6 +540,7 @@ human {name: 'abhshek', age: 30, country: 'india'}
 anand
 human {name: 'anand', age: 25}
 */
+/*
 class geo{
     constructor(lat,long) 
     {
@@ -575,3 +576,23 @@ class geo{
     undefined
     hindi
     language {lat: 67.89, long: 78.89, name: 'hindi', country: 'India'}
+    */
+
+    class geo{
+        constructor(lat,long) 
+        {
+            this.lat=lat;
+            this.long=long;
+        }
+    }
+        class language extends geo{
+            constructor(name,country,lat,long)
+            {super(lat,long)
+                this.name=name;
+                this.country=country;
+            }; print=()=> {
+                console.log(this.lat,this.long,this.name);
+            };
+        }
+    
+        var hindi=new language("hindi","India",67.89,78.89);
