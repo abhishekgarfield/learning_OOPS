@@ -487,3 +487,55 @@ maruti.name
 'gara'
 tesla.name
 */
+
+function human(name,age,)
+{
+    this.name=name;
+    this.age=age;
+}
+
+function robot(name,country)
+{
+    this.name=name;
+    this.country=country;
+}
+function human(name,age)
+{
+    this.name=name;
+    this.age=age;
+}
+
+function robot(name,country)
+{
+    this.name=name;
+    this.country=country;
+};var anand=new human("anand",26);
+undefined
+anand
+human {name: 'anand', age: 26}
+anand.country
+undefined
+human.prototype=new robot("anand","france");
+robot {name: 'anand', country: 'france'}
+anand.country
+undefined
+anand.age
+26
+var anand=new human("anand",25);
+undefined
+anand
+human {name: 'anand', age: 25}
+anand.country
+'france'
+var abhishek=new human("abhshek",30);
+undefined
+abhishek.country
+'france'
+abhishek.country="india"
+'india'
+abhishek.country
+'india'
+abhishek
+human {name: 'abhshek', age: 30, country: 'india'}
+anand
+human {name: 'anand', age: 25}
