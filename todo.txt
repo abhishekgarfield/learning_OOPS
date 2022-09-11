@@ -1,6 +1,6 @@
 create search bar
 submit assignment 5
-complete videos
 difference in var const let 
 complete read dark mode 
 regex
+app
