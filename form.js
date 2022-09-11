@@ -13,12 +13,13 @@ function validateFname(){
 const validateEmail = () => {
     let email = document.getElementById('email').value;
     if(email.trim().length == 0){
-        eout.innerText="Please Enter Email Id"
+        document.getElementById('eout').innerText="Please Enter Email Id"
     }else{
-        if(email.match("^([a-zA-Z0-9]+)@([a-zA-Z0-9]+).([a-zA-Z]{2,5})$") == null){
-            eout.innerText="Please Enter Valid Email"
+        console.log(email.match("^([a-zA-Z0-9]+)@([a-zA-Z0-9]+)\.([a-zA-Z0-9]{2,5})$"));
+        if(email.match("^([a-zA-Z0-9]+)@([a-zA-Z0-9]+)\.([a-zA-Z0-9]{2,5})$") === null){
+            document.getElementById('eout').innerText="Please Enter Valid Email"
         }else{
-            eout.innerText=""
+            document.getElementById('eout').innerText=""
         }
     }
 }
