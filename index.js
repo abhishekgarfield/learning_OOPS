@@ -1,5 +1,4 @@
-import play, { b } from "./var";
-var play = require("play");
+
 
 /*const obj={
     0:"abhishek",
@@ -18,7 +17,7 @@ for(var i=0;i<Object.keys(obj).length;i++)
 try{
 Object.entries(obj).forEach(([key,item]) => {
     console.log(key);
-});}
+});
 catch(err)
 {
     console.log(err);
@@ -355,6 +354,7 @@ restaurantList {name: 'dhaba', address: 'punjab', city: 'mohali'}
 dhaba.name
 'dhaba'
 */
+/*
 var el = document.querySelector(".but");
 $(".but").addEventListener("click", () => {
   hello();
@@ -441,3 +441,17 @@ undefined
   print((a)=>{console.log(a);});
 VM842:8 inside print function
 VM842:13 4
+*/
+/*
+
+const present=(stuff)=>{
+    console.log(stuff);
+}
+function hello(name,callback)
+{
+    this.name=name;
+    callback(this.name);
+}
+hello("abhishek",present);
+*/
+
