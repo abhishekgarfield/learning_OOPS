@@ -42,7 +42,7 @@ ratingData.forEach((element) => {
     check = true;
   }
 });
-averageRating = averageRating.map((item) => {
+var averageRestaurantRating = averageRating.map((item) => {
   var totalrating = 0;
   item.forEach(({ rating, restaurant }) => {
     totalrating += rating;
@@ -54,4 +54,11 @@ averageRating = averageRating.map((item) => {
   });
 });
 
+console.log(averageRestaurantRating); // Contains restaurant name with average rating
+
 /* ---------------- Question 2 -----------------*/
+
+var filteredAverageRating=averageRestaurantRating.filter(({averageRating})=>{return averageRating>=4});
+
+console.log(filteredAverageRating); // filtered restautrant names with rating filter
+
