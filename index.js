@@ -383,3 +383,61 @@ const obj = {
   20
   obj.sub(2,1);
   1
+
+
+  function hello(a)
+  {
+    console.log(a);
+  }
+
+  function print(callback){
+        console.log("inside print function");
+        callback(4);
+  }
+ 
+
+  print(()=>{return 5;});
+
+
+
+  function myDisplayer(some) {
+    document.getElementById("demo").innerHTML = some;
+  }
+  
+  function myCalculator(num1, num2, myCallback) {
+    let sum = num1 + num2;
+    myCallback(sum);
+  }
+  
+  myCalculator(5, 5, myDisplayer);
+
+
+  function hello(a)
+  {
+    console.log(a);
+  }
+
+  function print(callback){
+        console.log("inside print function");
+        callback(4);
+  }
+ 
+
+  print(()=>{return 5;});
+VM769:8 inside print function
+undefined
+
+  function hello(a)
+  {
+    console.log(a);
+  }
+
+  function print(callback){
+        console.log("inside print function");
+        callback(4);
+  }
+ 
+
+  print((a)=>{console.log(a);});
+VM842:8 inside print function
+VM842:13 4
