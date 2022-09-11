@@ -454,7 +454,7 @@ function hello(name,callback)
 }
 hello("abhishek",present);
 */
-
+/*
 function car(name,model,year)
 {
     this.name=name;
@@ -486,4 +486,4 @@ car {name: 'gara', year: 2040, model: 24}
 maruti.name
 'gara'
 tesla.name
-
+*/
