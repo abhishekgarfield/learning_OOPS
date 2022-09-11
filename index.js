@@ -1,7 +1,7 @@
-import play from "./var";
-var play= require("play");
+import play, { b } from "./var";
+var play = require("play");
 
-    /*const obj={
+/*const obj={
     0:"abhishek",
     1:"sharma"
 }
@@ -355,10 +355,31 @@ restaurantList {name: 'dhaba', address: 'punjab', city: 'mohali'}
 dhaba.name
 'dhaba'
 */
-var el=document.querySelector(".but");
-$(".but").addEventListener("click",()=>{
-    hello();
+var el = document.querySelector(".but");
+$(".but").addEventListener("click", () => {
+  hello();
 });
 
-const hello=()=>{
-    hi();}
+const hello = () => {
+  hi();
+};
+
+const obj = {
+    sub(a, b) {
+      return a - b;
+    },
+    sum: (a, b) => {
+      return a + b;
+    },
+    multiply: function (a, b) {
+      return a * b;
+    },
+  };
+  obj.sub(4, 3);obj.sum(3,3);obj.multiply(3,3);
+  9
+  obj.sum(4,3);
+  7
+  obj.multiply(4,5);
+  20
+  obj.sub(2,1);
+  1
