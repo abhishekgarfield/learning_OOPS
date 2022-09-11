@@ -7,6 +7,4 @@ const hi=()=>{
 const a=10;
 const b=20;
 
-export {a,b};
-export {hi};
-module.exports =play;
+module.exports =a;

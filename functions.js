@@ -1,8 +1,6 @@
-const add = (display) => {
-  var c = a + b;
-  display(c);
+const add = (callback) => {
+  var c = 10 + 10;
+  callback(c);
 };
+module.exports =add;
 
-const display = (c) => {
-  console.log(c);
-};

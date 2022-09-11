@@ -577,6 +577,8 @@ class geo{
     hindi
     language {lat: 67.89, long: 78.89, name: 'hindi', country: 'India'}
     */
+   /*
+ 
 
     class geo{
         constructor(lat,long) 
@@ -596,3 +598,9 @@ class geo{
         }
     
         var hindi=new language("hindi","India",67.89,78.89);
+          */
+
+var myfunc=require("./functions");
+myfunc((c)=>{
+    console.log(c);
+  });
