@@ -487,7 +487,7 @@ maruti.name
 'gara'
 tesla.name
 */
-
+/*
 function human(name,age,)
 {
     this.name=name;
@@ -539,3 +539,39 @@ abhishek
 human {name: 'abhshek', age: 30, country: 'india'}
 anand
 human {name: 'anand', age: 25}
+*/
+class geo{
+    constructor(lat,long) 
+    {
+        this.lat=lat;
+        this.long=long;
+    }
+}
+    class language extends geo{
+        constructor(name,country,lat,long)
+        {super(lat,long)
+            this.name=name;
+            this.country=country;
+        }
+    }
+
+    var hindi=new language("hindi","India",67.89,78.89);
+    class geo{
+        constructor(lat,long) 
+        {
+            this.lat=lat;
+            this.long=long;
+        }
+    }
+        class language extends geo{
+            constructor(name,country,lat,long)
+            {super(lat,long)
+                this.name=name;
+                this.country=country;
+            }
+        }
+    
+        var hindi=new language("hindi","India",67.89,78.89);
+    undefined
+    hindi
+    language {lat: 67.89, long: 78.89, name: 'hindi', country: 'India'}
