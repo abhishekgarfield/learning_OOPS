@@ -600,7 +600,7 @@ class geo{
         var hindi=new language("hindi","India",67.89,78.89);
           */
 
-var myfunc=require("./functions");
-myfunc((c)=>{
+import add from "./functions"
+add((c)=>{
     console.log(c);
   });
