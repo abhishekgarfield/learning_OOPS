@@ -455,3 +455,35 @@ function hello(name,callback)
 hello("abhishek",present);
 */
 
+function car(name,model,year)
+{
+    this.name=name;
+    this.year=year;
+    this.model=model;
+}
+
+var tesla=new car("t90",25,2020);
+
+function car(name,model,year)
+{
+    this.name=name;
+    this.year=year;
+    this.model=model;
+}
+
+var tesla=new car("t90",25,2020);
+undefined
+tesla
+car {name: 't90', year: 2020, model: 25}
+var maruti=car("gara",24,2040);
+undefined
+maruti
+undefined
+var maruti= new car("gara",24,2040);
+undefined
+maruti
+car {name: 'gara', year: 2040, model: 24}
+maruti.name
+'gara'
+tesla.name
+
