@@ -1,4 +1,4 @@
-console.log(("ac").match("^([ab*c])$"));
+/*console.log(("ac").match("^([ab*c])$"));
 VM299:1 null
 undefined
 console.log(("abc").match("^([ab*c])$"));
@@ -87,3 +87,4 @@ VM1438:1 null
 undefined
 console.log(("c").match("^([abc])$"));
 VM1476:1 (2) ['c', 'c', index: 0, input: 'c', groups: undefined]
+*/
