@@ -88,3 +88,23 @@ undefined
 console.log(("c").match("^([abc])$"));
 VM1476:1 (2) ['c', 'c', index: 0, input: 'c', groups: undefined]
 */
+
+// any email
+console.log(("abhisharma.cse17@chitkarauniversity.edu.in").match("^([a-zA-Z0-9\.]+)([\@])([a-zA-Z0-9\.]{5,})([a-zA-Z]{2,4})$"));
+/*console.log(("abhisharma.cse17@chitkarauniversity.edu.in").match("^([a-zA-Z0-9\.]+)([\@])([a-zA-Z0-9\.]{5,})([a-zA-Z]{2,4})$"));
+VM1838:1 (5) ['abhisharma.cse17@chitkarauniversity.edu.in', 'abhisharma.cse17', '@', 'chitkarauniversity.edu.', 'in', index: 0, input: 'abhisharma.cse17@chitkarauniversity.edu.in', groups: undefined]
+undefined
+console.log(("abhisharma.cse17@").match("^([a-zA-Z0-9\.]+)([\@])([a-zA-Z0-9\.]{5,})([a-zA-Z]{2,4})$"));
+VM1863:1 null
+undefined
+console.log(("abhisharma.cse17@gmail").match("^([a-zA-Z0-9\.]+)([\@])([a-zA-Z0-9\.]{5,})([a-zA-Z]{2,4})$"));
+VM1886:1 null
+undefined
+console.log(("abhisharma.cse17@gmail.com").match("^([a-zA-Z0-9\.]+)([\@])([a-zA-Z0-9\.]{5,})([a-zA-Z]{2,4})$"));
+VM1907:1 (5) ['abhisharma.cse17@gmail.com', 'abhisharma.cse17', '@', 'gmail.c', 'om', index: 0, input: 'abhisharma.cse17@gmail.com', groups: undefined]
+undefined
+console.log(("abhisharma.cse17@gm.com").match("^([a-zA-Z0-9\.]+)([\@])([a-zA-Z0-9\.]{5,})([a-zA-Z]{2,4})$"));
+VM1995:1 null
+undefined
+console.log(("abhisharma.cse17@gmail.com").match("^([a-zA-Z0-9\.]+)([\@])([a-zA-Z0-9\.]{5,})([a-zA-Z]{2,4})$"));
+*/
