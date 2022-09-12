@@ -90,7 +90,7 @@ VM1476:1 (2) ['c', 'c', index: 0, input: 'c', groups: undefined]
 */
 
 // any email
-console.log(("abhisharma.cse17@chitkarauniversity.edu.in").match("^([a-zA-Z0-9\.]+)([\@])([a-zA-Z0-9\.]{5,})([a-zA-Z]{2,4})$"));
+console.log(("abhisharma.cse17@chitkarauniversity.edu.in").match("^([a-zA-Z0-9\.]+)([\@])([a-zA-Z0-9\.]{5,})([\.])([a-zA-Z]{2,4})$"));
 /*console.log(("abhisharma.cse17@chitkarauniversity.edu.in").match("^([a-zA-Z0-9\.]+)([\@])([a-zA-Z0-9\.]{5,})([a-zA-Z]{2,4})$"));
 VM1838:1 (5) ['abhisharma.cse17@chitkarauniversity.edu.in', 'abhisharma.cse17', '@', 'chitkarauniversity.edu.', 'in', index: 0, input: 'abhisharma.cse17@chitkarauniversity.edu.in', groups: undefined]
 undefined
