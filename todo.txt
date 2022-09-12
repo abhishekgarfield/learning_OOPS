@@ -1,5 +1,4 @@
 create search bar
 submit assignment 5
 complete read dark mode
-regex
 app
