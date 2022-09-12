@@ -1,6 +1,5 @@
 create search bar
 submit assignment 5
-difference in var const let 
 complete read dark mode 
 regex
 app
