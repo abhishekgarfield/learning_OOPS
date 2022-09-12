@@ -108,3 +108,4 @@ VM1995:1 null
 undefined
 console.log(("abhisharma.cse17@gmail.com").match("^([a-zA-Z0-9\.]+)([\@])([a-zA-Z0-9\.]{5,})([a-zA-Z]{2,4})$"));
 */
+"^([a-zA-Z0-9\.]+)([\@])([a-zA-Z0-9\.]+)([\.])([a-zA-Z]{2,3})$"
