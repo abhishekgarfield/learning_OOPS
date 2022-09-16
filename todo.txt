@@ -1,4 +1,6 @@
 create search bar
+read redux
 submit assignment 5
 Routing in react
-app
+deploy react native 
+Tinder app
